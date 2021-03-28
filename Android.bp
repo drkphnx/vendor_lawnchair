@@ -1,0 +1,18 @@
+soong_namespace {
+}
+
+prebuilt_etc_xml {
+	name: "lawnchair-hiddenapi-package-whitelist",
+	src: "sysconfig/lawnchair-hiddenapi-package-whitelist.xml",
+	filename_from_src: true,
+	sub_dir: "sysconfig",
+	system_ext_specific: true
+}
+
+prebuilt_etc_xml {
+	name: "privapp-permissions-lawnchair",
+	src: "permissions/privapp-permissions-lawnchair.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+	system_ext_specific: true
+}
