@@ -1,6 +1,32 @@
 soong_namespace {
 }
 
+android_app_import {
+    name: "Lawnchair",
+
+    privileged: true,
+    system_ext_specific: true,
+
+	required: [
+		"lawnchair-hiddenapi-package-whitelist",
+		"privapp-permissions-lawnchair",
+	],
+
+    overrides: [
+        "Home",
+        "Launcher2",
+        "Launcher3",
+        "Launcher3QuickStep",
+        "NexusLauncherRelease",
+    ],
+
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "Lawnchair.apk",
+    presigned: true,
+}
+
 prebuilt_etc_xml {
 	name: "lawnchair-hiddenapi-package-whitelist",
 	src: "sysconfig/lawnchair-hiddenapi-package-whitelist.xml",
