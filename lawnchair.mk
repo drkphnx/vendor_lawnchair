@@ -8,5 +8,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Lawnchair \
     LawnchairOverlay \
+    Lawnicons \
     lawnchair-hiddenapi-package-whitelist \
     privapp-permissions-lawnchair
