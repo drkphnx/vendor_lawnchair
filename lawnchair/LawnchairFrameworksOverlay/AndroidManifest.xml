@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.lawnchair.overlay">
+    package="android.lawnchair.overlay">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:targetPackage="app.lawnchair" />
+        android:targetPackage="android" />
 </manifest>

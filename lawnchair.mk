@@ -7,6 +7,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Lawnchair \
+    LawnchairFrameworksOverlay \
     LawnchairOverlay \
     Lawnicons \
     lawnchair-hiddenapi-package-whitelist \
