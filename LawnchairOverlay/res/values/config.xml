@@ -8,7 +8,7 @@
         <!-- Action Services -->
         <item>com.google.android.as/com.google.android.apps.miphone.aiai.allapps.main.MainDummyActivity</item>
         <!-- Lawnchair -->
-        <item>app.lawnchair/.LawnchairLauncher</item>
+        <item>app.lawnchair.twelvel/.LawnchairLauncher</item>
         <!-- Lawnicons -->
         <item>app.lawnchair.lawnicons/.MainActivity</item>
     </string-array>
