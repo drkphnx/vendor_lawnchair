@@ -15,7 +15,7 @@
   ~ limitations under the License
   -->
 <permissions>
-    <privapp-permissions package="app.lawnchair.twelvel">
+    <privapp-permissions package="app.lawnchair">
         <permission name="android.permission.INTERNET"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.FOREGROUND_SERVICE"/>
